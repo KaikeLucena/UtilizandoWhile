@@ -1,0 +1,15 @@
+from random import randint
+
+numero = (randint(0, 5))
+
+resposta = 6
+
+tentativas = 0
+
+while numero != resposta:
+    resposta = int(input('Tente adivinhar o número:'))
+    tentativas = tentativas + 1
+    
+print('Parabéns! Você precisou de ', tentativas, 'tentativas!') 
+
+   
